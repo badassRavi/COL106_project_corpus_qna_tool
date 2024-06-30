@@ -321,7 +321,7 @@ void QNA_tool::query(string question, string filename){
     std::cout << "Q: " << question << std::endl;
     std::cout << "A: " << "Studying COL106 :)" << std::endl;
     Node* root=get_top_k_modified_para(question,5);
-    query_llm(filename,root,5,"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",question);
+    query_llm(filename,root,5,"your open ai key",question);
     return;
 }
 
